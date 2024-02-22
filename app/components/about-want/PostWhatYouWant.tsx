@@ -23,7 +23,7 @@ const PostWhatYouWant = () => {
     <Flex gap={100} justify="center" align="center" direction="row" wrap="wrap">
       <Stack maw={200}>
         <Title size="h1" fw={700}>
-          Want is the place where users can post what they Want
+          Want is the place where people and companies can post what they Want
         </Title>
       </Stack>
       <Paper withBorder p={"xl"} radius={"md"} shadow="xs">
@@ -48,7 +48,7 @@ const PostWhatYouWant = () => {
 
             <Stack gap={0}>
               <Text fw={600} size="xl">
-                iPhone 15 Pro with 256GB...
+                Need an iPhone 15 Pro
               </Text>
               <Button
                 leftSection={<IconMapPin size={20} stroke={2} />}
@@ -122,7 +122,6 @@ const PostWhatYouWant = () => {
               <Image
                 radius={"md"}
                 className={classes.cardImage}
-                fit="contain"
                 src={"./image/tesla.png"}
               />
             </Group>

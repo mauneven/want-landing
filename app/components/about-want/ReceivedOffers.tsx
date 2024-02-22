@@ -8,12 +8,11 @@ import {
   Stack,
   Title,
   Button,
-  Badge,
   Paper,
   Image,
   Avatar,
 } from "@mantine/core";
-import { IconMapPin } from "@tabler/icons-react";
+import { IconCircleCheck, IconInfoCircle } from "@tabler/icons-react";
 import React from "react";
 import classes from "../../../public/css/about-want/PostWhatYouWant.module.css";
 
@@ -22,7 +21,7 @@ const ReceivedOffers = () => {
     <Flex gap={100} justify="center" align="center" direction="row" wrap="wrap">
       <Stack maw={200}>
         <Title size="h1" fw={700}>
-          Where you can find the offers the people and companies do to you.
+          Where you can find the offers that people and companies make to you.
         </Title>
       </Stack>
       <Paper withBorder p={"xl"} radius={"md"} shadow="xs">
@@ -36,31 +35,41 @@ const ReceivedOffers = () => {
                 src={"./image/receivedIphone.webp"}
               />
             </Group>
-            <Group mt={"xs"} justify="space-between">
+            <Group mt={"lg"} justify="space-between">
               <Text fz="lg" fw={800} c={"green"} size="xl">
-                $850
-              </Text>
-              <Paper variant="light" color="green">
-                <Group>
-                  <Avatar size={""}></Avatar>
-                  Electronics
-                </Group>
-              </Paper>
-            </Group>
-
-            <Stack gap={0}>
-              <Text fw={600} size="xl">
-                iPhone 15 Pro with 256GB...
+                $950
               </Text>
               <Button
-                leftSection={<IconMapPin size={20} stroke={2} />}
+                size="xs"
+                p={0}
+                color="blue"
+                variant="light"
+                radius={20}
+                leftSection={<Avatar src={"./image/tim.jpg"} size={"sm"} />}
+              >
+                <Text size="sm" fw={500} mr={10}>
+                  Tim Cook
+                </Text>
+              </Button>
+            </Group>
+
+            <Stack gap={0} mt={10}>
+              <Text fw={600} size="xl">
+                iPhone 15 Pro 128GB
+              </Text>
+              <Text maw={250} fw={600} size="xs" c="dimmed">
+                Got this iPhone 15 just recently out of the San Francisco store,
+                this is a really good price..
+              </Text>
+              <Button
+                leftSection={<IconInfoCircle size={20} stroke={2} />}
                 mt={5}
                 variant="transparent"
                 justify="left"
                 p={0}
                 color="none"
               >
-                San Francisco, CA
+                From your post "iPhone 15 Pro..."
               </Button>
             </Stack>
 
@@ -71,7 +80,7 @@ const ReceivedOffers = () => {
                 radius="md"
                 style={{ flex: 1 }}
               >
-                View more
+                Check this offer
               </Button>
             </Group>
           </Card>
@@ -80,29 +89,44 @@ const ReceivedOffers = () => {
               <Image
                 radius={"md"}
                 className={classes.cardImage}
-                src={"./image/macbook.png"}
+                src={"./image/receivedMacbook.jpg"}
               />
             </Group>
-            <Group mt={"xs"} justify="space-between">
+            <Group mt={"lg"} justify="space-between">
               <Text fz="lg" fw={800} c={"green"} size="xl">
-                $1,100
-              </Text>
-              <Badge size="sm" variant="light" color="green"></Badge>
-            </Group>
-
-            <Stack gap={0}>
-              <Text fw={600} size="xl">
-                MacBook Pro 1TB
+                $1150
               </Text>
               <Button
-                leftSection={<IconMapPin size={20} stroke={2} />}
+                size="xs"
+                p={0}
+                color="yellow"
+                variant="light"
+                radius={20}
+                leftSection={<Avatar src={"./image/ryan.jpg"} size={"sm"} />}
+              >
+                <Text size="sm" fw={500} mr={10}>
+                  Ryan Gosling
+                </Text>
+              </Button>
+            </Group>
+
+            <Stack gap={0} mt={10}>
+              <Text fw={600} size="xl">
+                MacBook Pro 512GB
+              </Text>
+              <Text maw={250} fw={600} size="xs" c="dimmed">
+                Got this iPhone 15 just recently out of the San Francisco store,
+                this is a really good price..
+              </Text>
+              <Button
+                leftSection={<IconInfoCircle size={20} stroke={2} />}
                 mt={5}
                 variant="transparent"
                 justify="left"
                 p={0}
                 color="none"
               >
-                Palo Alto, CA
+                From your post "MacBook Pro 1TB"
               </Button>
             </Stack>
 
@@ -113,7 +137,7 @@ const ReceivedOffers = () => {
                 radius="md"
                 style={{ flex: 1 }}
               >
-                View more
+                Check this offer
               </Button>
             </Group>
           </Card>
@@ -121,33 +145,49 @@ const ReceivedOffers = () => {
             <Group justify="center">
               <Image
                 radius={"md"}
-                className={classes.cardImage}
                 fit="contain"
-                src={"./image/tesla.png"}
+                className={classes.cardImage}
+                src={"./image/receivedTesla.png"}
               />
             </Group>
-            <Group mt={"xs"} justify="space-between">
+            <Group mt={"lg"} justify="space-between">
               <Text fz="lg" fw={800} c={"green"} size="xl">
-                $850
-              </Text>
-              <Badge size="sm" variant="light" color="green">
-                Vehicles
-              </Badge>
-            </Group>
-
-            <Stack gap={0}>
-              <Text fw={600} size="xl">
-                Tesla Model Y
+                $950
               </Text>
               <Button
-                leftSection={<IconMapPin size={20} stroke={2} />}
+                size="xs"
+                p={0}
+                color="red"
+                variant="light"
+                radius={20}
+                leftSection={
+                  <Avatar src={"./image/teslaLogo.png"} size={"sm"} />
+                }
+                rightSection={<IconCircleCheck></IconCircleCheck>}
+              >
+                <Text size="sm" fw={500} mr={10}>
+                  Tesla Store
+                </Text>
+              </Button>
+            </Group>
+
+            <Stack gap={0} mt={10}>
+              <Text fw={600} size="xl">
+                iPhone 15 Pro 128GB
+              </Text>
+              <Text maw={250} fw={600} size="xs" c="dimmed">
+                Got this iPhone 15 just recently out of the San Francisco store,
+                this is a really good price..
+              </Text>
+              <Button
+                leftSection={<IconInfoCircle size={20} stroke={2} />}
                 mt={5}
                 variant="transparent"
                 justify="left"
                 p={0}
                 color="none"
               >
-                San Diego, CA
+                From your post "Tesla Model Y"
               </Button>
             </Stack>
 
@@ -158,7 +198,7 @@ const ReceivedOffers = () => {
                 radius="md"
                 style={{ flex: 1 }}
               >
-                View more
+                Check this offer
               </Button>
             </Group>
           </Card>

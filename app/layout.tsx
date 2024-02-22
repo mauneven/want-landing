@@ -1,10 +1,11 @@
-import '@mantine/core/styles.css';
+import "@mantine/core/styles.css";
+import "./globals.css";
 
-import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+import { ColorSchemeScript, Container, MantineProvider } from "@mantine/core";
+import { HeaderMenu } from "./components/navigation/Navbar";
 
 export const metadata = {
-  title: 'Want Preview',
-  description: 'I have followed setup instructions carefully',
+  title: "Maunenven's Portfolio",
 };
 
 export default function RootLayout({
@@ -18,7 +19,27 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body>
-        <MantineProvider>{children}</MantineProvider>
+        <MantineProvider
+          theme={{
+            colors: {
+              dark: [
+                "#e0e0e0",
+                "#c2c2c2",
+                "#a3a3a3",
+                "#858585",
+                "#2e2e2e",
+                "#2e2e2e",
+                "#2e2e2e",
+                "#000000",
+                "#000000",
+                "#000000",
+              ],
+            },
+          }}
+        >
+          <HeaderMenu />
+          <Container fluid>{children}</Container>
+        </MantineProvider>
       </body>
     </html>
   );

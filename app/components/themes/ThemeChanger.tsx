@@ -11,6 +11,7 @@ export default function ThemeChanger() {
     <ActionIcon
       onClick={() => setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light')}
       variant="light"
+      color="green"
       p={5}
       size={'lg'}
       aria-label="Toggle color scheme"

@@ -9,6 +9,7 @@ import {
   Divider,
   rem,
   Stack,
+  Paper,
 } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import classes from "../../../public/css/navigation/HeaderMenu.module.css";
@@ -47,8 +48,14 @@ export function HeaderMenu() {
             hiddenFrom="sm"
           />
           <Group justify="space-between">
-            <Text>Want</Text>
-            <Text c={"blue"}>PREVIEW</Text>
+            <Text size="xl" fw={700}>
+              Want
+            </Text>
+            <Paper withBorder p={"xs"}>
+              <Text fw={900} c={"green"} size="md">
+                PREVIEW
+              </Text>
+            </Paper>
           </Group>
         </Group>
 

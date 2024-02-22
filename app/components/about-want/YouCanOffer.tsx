@@ -14,7 +14,6 @@ import { IconUpload } from "@tabler/icons-react";
 import React from "react";
 import classes from "../../../public/css/about-want/YouCanOffer.module.css";
 
-
 const YouCanOffer = () => {
   return (
     <Flex gap={100} justify="center" align="center" direction="row" wrap="wrap">
@@ -23,9 +22,13 @@ const YouCanOffer = () => {
           Where the people and their companies can make offers
         </Title>
       </Stack>
-      <Paper withBorder radius={"md"} shadow="xs" className={classes.offerPaper}>
+      <Paper
+        withBorder
+        radius={"md"}
+        shadow="xs"
+        className={classes.offerPaper}
+      >
         <Title ta={"center"} mb={"xl"}>
-          {" "}
           You are doing an offer to &quot;Need iPhone 15 Pro&quot;
         </Title>
         <Title ta={"center"} mb={"xl"} size={"h2"}>

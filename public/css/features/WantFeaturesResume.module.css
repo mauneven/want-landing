@@ -1,0 +1,10 @@
+.categoriesPaper{
+    padding: 50px;
+}
+
+
+@media (max-width: 1000px){
+    .categoriesPaper{
+        padding: 30px;
+    }
+}

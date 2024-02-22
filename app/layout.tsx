@@ -3,9 +3,10 @@ import "./globals.css";
 
 import { ColorSchemeScript, Container, MantineProvider } from "@mantine/core";
 import { HeaderMenu } from "./components/navigation/Navbar";
+import Footer from "./components/navigation/Footer";
 
 export const metadata = {
-  title: "Maunenven's Portfolio",
+  title: "Want",
 };
 
 export default function RootLayout({
@@ -39,6 +40,7 @@ export default function RootLayout({
         >
           <HeaderMenu />
           <Container fluid>{children}</Container>
+          <Footer />
         </MantineProvider>
       </body>
     </html>

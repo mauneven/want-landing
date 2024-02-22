@@ -21,7 +21,7 @@ const ReceivedOffers = () => {
     <Flex gap={100} justify="center" align="center" direction="row" wrap="wrap">
       <Stack maw={200}>
         <Title size="h1" fw={700}>
-          Where you can find the offers that people and companies make to you.
+          And you can find the offers that people and companies make to you
         </Title>
       </Stack>
       <Paper withBorder p={"xl"} radius={"md"} shadow="xs">
@@ -69,7 +69,7 @@ const ReceivedOffers = () => {
                 p={0}
                 color="none"
               >
-                From your post &quoti;Phone 15 Pro...&quot;
+                From your post &quot;Phone 15 Pro...&quot;
               </Button>
             </Stack>
 
@@ -126,7 +126,7 @@ const ReceivedOffers = () => {
                 p={0}
                 color="none"
               >
-                From your post &quoti;MacBook Pro 1TB&quoti;
+                From your post &quot;MacBook Pro 1TB&quot;
               </Button>
             </Stack>
 
@@ -173,7 +173,7 @@ const ReceivedOffers = () => {
 
             <Stack gap={0} mt={10}>
               <Text fw={600} size="xl">
-                iPhone 15 Pro 128GB
+                Tesla Model Y
               </Text>
               <Text maw={250} fw={600} size="xs" c="dimmed">
                 Got this iPhone 15 just recently out of the San Francisco store,
@@ -187,7 +187,7 @@ const ReceivedOffers = () => {
                 p={0}
                 color="none"
               >
-                From your post &quoti;Tesla Model Y&quoti;
+                From your post &quot;Tesla Model Y&quot;
               </Button>
             </Stack>
 

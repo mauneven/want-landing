@@ -1,0 +1,10 @@
+.offerPaper{
+    padding: 100px;
+}
+
+
+@media (max-width: 1000px){
+    .offerPaper{
+        padding: 30px;
+    }
+}

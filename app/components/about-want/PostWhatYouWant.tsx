@@ -12,9 +12,7 @@ import {
   Paper,
   Image,
 } from "@mantine/core";
-import {
-  IconMapPin,
-} from "@tabler/icons-react";
+import { IconMapPin } from "@tabler/icons-react";
 import React from "react";
 import classes from "../../../public/css/about-want/PostWhatYouWant.module.css";
 

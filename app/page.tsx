@@ -12,8 +12,8 @@ const page = () => {
         <FirstImpression />
         <Title c={"green"} ta={"center"}>What is Want?</Title>
         <PostWhatYouWant />
-        <ReceivedOffers/>
         <YouCanOffer/>
+        <ReceivedOffers/>
       </Stack>
     </Container>
   );

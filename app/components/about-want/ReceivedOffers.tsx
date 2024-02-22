@@ -69,7 +69,7 @@ const ReceivedOffers = () => {
                 p={0}
                 color="none"
               >
-                From your post "iPhone 15 Pro..."
+                From your post &quoti;Phone 15 Pro...&quot;
               </Button>
             </Stack>
 
@@ -126,7 +126,7 @@ const ReceivedOffers = () => {
                 p={0}
                 color="none"
               >
-                From your post "MacBook Pro 1TB"
+                From your post &quoti;MacBook Pro 1TB&quoti;
               </Button>
             </Stack>
 
@@ -187,7 +187,7 @@ const ReceivedOffers = () => {
                 p={0}
                 color="none"
               >
-                From your post "Tesla Model Y"
+                From your post &quoti;Tesla Model Y&quoti;
               </Button>
             </Stack>
 

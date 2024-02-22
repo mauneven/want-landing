@@ -102,6 +102,13 @@ const WantFeaturesResume = () => {
             </Group>
           </Paper>
         </Group>
+        <Flex
+        gap={100}
+        justify="center"
+        align="center"
+        direction="row"
+        wrap="wrap"
+      >
         <Title maw={200}>
           A platform accessible from anywhere in the world
         </Title>
@@ -237,6 +244,7 @@ const WantFeaturesResume = () => {
             </Group>
           </Paper>
         </Group>
+        </Flex>
       </Flex>
     </Stack>
   );

@@ -33,7 +33,7 @@ const WantFeaturesResume = () => {
         <Title maw={200}>Multiple Categories, just one platform</Title>
         <Group maw={1000}>
           <Paper className={classes.categoriesPaper} withBorder>
-            <Group gap={"xl"} justify="space-between">
+            <Group gap={"xl"} justify="center">
               <Button color="green" variant="light" leftSection={<IconCar />}>
                 Vehicles
               </Button>
@@ -107,7 +107,7 @@ const WantFeaturesResume = () => {
         </Title>
         <Group maw={1000}>
           <Paper className={classes.categoriesPaper} withBorder>
-            <Group gap={"xl"} justify="space-between">
+            <Group gap={"xl"} justify="center">
               <Button
                 color="green"
                 variant="light"

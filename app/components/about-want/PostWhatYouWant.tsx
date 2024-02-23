@@ -125,7 +125,7 @@ const PostWhatYouWant = () => {
             </Group>
             <Group mt={"xs"} justify="space-between">
               <Text fz="lg" fw={800} c={"green"} size="xl">
-                $850
+                $37,000
               </Text>
               <Badge size="sm" variant="light" color="green">
                 Vehicles

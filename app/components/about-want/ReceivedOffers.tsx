@@ -58,8 +58,8 @@ const ReceivedOffers = () => {
                 iPhone 15 Pro 128GB
               </Text>
               <Text maw={250} fw={600} size="xs" c="dimmed">
-                Got this iPhone 15 just recently out of the San Francisco store,
-                this is a really good price..
+                Brand new iPhone 15 Pro straight from the San Francisco store,
+                great deal!
               </Text>
               <Button
                 leftSection={<IconInfoCircle size={20} stroke={2} />}
@@ -94,7 +94,7 @@ const ReceivedOffers = () => {
             </Group>
             <Group mt={"lg"} justify="space-between">
               <Text fz="lg" fw={800} c={"green"} size="xl">
-                $1150
+                $1,150
               </Text>
               <Button
                 size="xs"
@@ -115,8 +115,8 @@ const ReceivedOffers = () => {
                 MacBook Pro 512GB
               </Text>
               <Text maw={250} fw={600} size="xs" c="dimmed">
-                Got this iPhone 15 just recently out of the San Francisco store,
-                this is a really good price..
+                Brand new MacBook Pro 512GB with the latest features, fantastic
+                offer!
               </Text>
               <Button
                 leftSection={<IconInfoCircle size={20} stroke={2} />}
@@ -152,7 +152,7 @@ const ReceivedOffers = () => {
             </Group>
             <Group mt={"lg"} justify="space-between">
               <Text fz="lg" fw={800} c={"green"} size="xl">
-                $950
+                $38,000
               </Text>
               <Button
                 size="xs"
@@ -176,8 +176,7 @@ const ReceivedOffers = () => {
                 Tesla Model Y
               </Text>
               <Text maw={250} fw={600} size="xs" c="dimmed">
-                Got this iPhone 15 just recently out of the San Francisco store,
-                this is a really good price..
+                Brand new Tesla Model Y, available now at an unbeatable price!
               </Text>
               <Button
                 leftSection={<IconInfoCircle size={20} stroke={2} />}
